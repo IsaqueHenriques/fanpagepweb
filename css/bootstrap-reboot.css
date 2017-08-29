@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
 }
 
+h1#principal{
+    text-align: center;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -70,8 +74,14 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
 }
 
 ol ol,
@@ -79,6 +89,27 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+}
+
+footer{
+    padding: 40px;
+}
+footer p{
+    border-top: solid 1px;
+    padding: 10px;
+    border-color: black;
+    font-size: 13px;
+    text-align: center;
+}
+
+main p{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main{
+    padding: 50px;
 }
 
 dt {
