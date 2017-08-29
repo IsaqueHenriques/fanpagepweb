@@ -1,0 +1,16 @@
+header {
+    background-color: #000000;
+    position: fixed center;
+}
+
+main {
+    background-color: #FF0000;
+}
+
+footer, navs {
+    background-color: #FFFFFF;
+}
+
+ul {
+    text-decoration-color: #FFFFFF;
+}
