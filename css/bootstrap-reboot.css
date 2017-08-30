@@ -27,6 +27,10 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block;
 }
 
+@font-face {
+     font-family: devilnet;
+     src: url(/fonts/net/TheDevilNet.ttf);
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -114,8 +118,24 @@ main{
     text-align: justify;
 }
 
+aside{
+    position: absolute;
+    margin-left: 975px;
+    margin-right: auto;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 15px;
+    text-align: center;
+}
+
+aside ul{
+    
+    padding: 10px;
+}
+
+
 main h1,h2,h3{
     color: white;
+    font-family: devilnet;
     border-bottom: 1px solid;
     padding: 15px;
 }
